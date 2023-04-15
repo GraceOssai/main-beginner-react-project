@@ -1,0 +1,96 @@
+nav{
+  height: 70px;
+  box-shadow: 0 0 5px rgba(174, 172, 172, 2.807);
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.nav-inner{
+  width: 100%;
+  padding: 15px 4%;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.logo{
+  flex: 1;
+}
+
+.nav-inner p:nth-child(1){
+  color: red;
+  font-size: 1.2rem;
+}
+
+.nav-inner p:nth-child(1) span{
+  color: blue;
+  font-size: 1.5rem;
+}
+
+.menu-icon{
+  display: none;
+}
+.nav-search{
+  border: 0.1px solid blue;
+  /* width: 563px; */
+  height: 36px;
+  max-width: 500px;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 2%;
+  gap: 15px;
+  cursor: pointer;
+  flex: 2;
+}
+
+.nav-search input{
+  border: none;
+  outline: none;
+  width: 490px;
+  background-color: whitesmoke;
+}
+
+.nav-search span{
+  font-size: 1.2rem;
+  color: blue;
+}
+.nav-search input::placeholder{
+  color: blue;
+}
+
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  flex: 2;
+  column-gap: 25px;
+}
+
+.nav-links a:nth-child(1){
+  margin-left: 50px;
+}
+
+.nav-links a{
+  color: blue;
+  font-size: 1rem;
+  text-decoration: none;
+  border: .5px solid blue;
+  padding: 3px 5px;
+  border-radius: .8rem;
+  box-shadow: 3px 4px 4px blue;
+  background-color: white;
+  color: black;
+}
+
+.nav-links a:hover{
+  color: black;
+  transform: scale(1.2) translateY(3px);
+  transition: 0.5s;
+  background-color: white;
+}
+
