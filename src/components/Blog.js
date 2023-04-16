@@ -41,7 +41,7 @@ const Blog = () => {
       esse sequi! Molestias, maxime."
       />
       <Card
-        img="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5ld3NwYXBlciUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        img="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5ld3NwYXBlciUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60QSWQE23W432"
         title="read me"
         description="Lorem, ipsum dolor sit amet consectetur adipisicing 
       elit. Voluptatibus aut dicta inventore quos eaque fuga corporis 
