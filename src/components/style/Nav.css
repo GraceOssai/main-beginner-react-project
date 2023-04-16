@@ -71,11 +71,11 @@ nav{
   column-gap: 25px;
 }
 
-.nav-links a:nth-child(1){
+.nav-links span:nth-child(1){
   margin-left: 50px;
 }
 
-.nav-links a{
+.nav-links span{
   color: blue;
   font-size: 1rem;
   text-decoration: none;
@@ -87,7 +87,7 @@ nav{
   color: black;
 }
 
-.nav-links a:hover{
+.nav-links span:hover{
   color: black;
   transform: scale(1.2) translateY(3px);
   transition: 0.5s;

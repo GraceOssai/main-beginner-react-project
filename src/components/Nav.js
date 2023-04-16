@@ -17,10 +17,10 @@ const Nav = () => {
           <input type="search" placeholder="What are you looking for?" />
         </div>
         <div className="nav-links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact us</a>
-          <a href="#">Blogs</a>
+          <span>Home</span>
+          <span>About</span>
+          <span>Contact us</span>
+          <span>Blogs</span>
         </div>
       </div>
     </nav>
